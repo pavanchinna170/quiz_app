@@ -68,3 +68,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Quiz Application - React
+This is a simple quiz application built using React. It allows users to take a quiz, view their score, and get feedback on their performance. The quiz consists of multiple-choice questions, and users can navigate through the questions, select answers, and see the results at the end.
+
+Features:
+Multiple Questions: The quiz contains multiple-choice questions on various topics like Indian actors, Indian politics, history, etc.
+Answer Validation: The app validates whether the selected answer is correct or incorrect and provides feedback.
+Score Tracking: The user’s score is displayed at the end, showing how many questions were answered correctly.
+Incorrect Answer Feedback: After completing the quiz, the user is shown the questions they got wrong, along with the correct answers.
+Quiz Restart: After viewing the results, the user can restart the quiz to try again.
+Technologies Used:
+React.js: For building the user interface and managing state.
+Bootstrap: For styling the quiz application.
+CSS: Custom styles for improving the look and feel of the quiz.
+JavaScript: For the logic and functionality of the quiz.
+Installation:
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/quiz-app.git
+Navigate to the Project Directory:
+
+bash
+Copy code
+cd quiz-app
+Install Dependencies: This app uses React and Bootstrap for the frontend. Install the dependencies by running:
+
+bash
+Copy code
+npm install
+Run the Application: Start the development server with:
+
+bash
+Copy code
+npm start
+This will open the quiz application in your default browser, usually at http://localhost:3000.

@@ -1,38 +1,79 @@
+/* App.css */
+
+/* Set background color and font for the whole app */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center content in the middle */
 .App {
   text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style for the question text */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Style for buttons */
+button {
+  background-color: #007bff;
   color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
+
+/* Style for the result text */
+h3 {
+  color: #2d7e2d;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Style for the question list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for the result container */
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Add spacing between elements */
+div {
+  margin-bottom: 20px;
+}
+
+/* Style for the result list */
+ul li {
+  text-align: left;
+  font-size: 18px;
+}
+
